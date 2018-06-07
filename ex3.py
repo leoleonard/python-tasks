@@ -20,6 +20,19 @@ def map_cars_countries(cars):
             result[country] = [made]
     return result
 
+    # def map_cars_countries(cars):
+    # result = {}
+    # for country, make in cars:
+    #     if country in result:
+    #         if isinstance(result[country], list):
+    #             result[country].append(make)
+    #         else:
+    #             result[country] = [result[country]]
+    #             result[country].append(make)
+    #     else:
+    #         result[country] = make
+    # return result
+
 
 if __name__ == '__main__':
     keys = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
